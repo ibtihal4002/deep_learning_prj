@@ -1,0 +1,12 @@
+# --- Noyau Deep Learning (PyTorch) ---
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- Manipulation et Analyse de données ---
+numpy>=1.22.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+
+# --- Environnement de Développement ---
+notebook>=6.4.0
+ipykernel>=6.0.0

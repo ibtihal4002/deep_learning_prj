@@ -1,0 +1,7 @@
+Configuration,Taille sortie conv2 (flatten),Nb paramètres,Accuracy test,Temps/3 époques (s),Train loss finale
+"LeNet de référence (Max Pooling, pad=2, conv1x1)",1568,212814,0.8942,171.8,0.2765
+Average Pooling (au lieu de Max),1568,212814,0.884,168.4,0.3106
+Sans Pooling (réduction par stride dans conv2),6272,777294,0.905,171.6,0.2409
+Sans convolution 1x1,1568,212542,0.8908,142.2,0.2746
+Padding=0 (pas de préservation de la taille spatiale),512,86094,0.8752,151.6,0.3155
+Plus de filtres (32 -> 64),3136,440606,0.9079,400.3,0.2312
